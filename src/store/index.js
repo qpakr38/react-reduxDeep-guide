@@ -1,8 +1,9 @@
 import {configureStore} from "@reduxjs/toolkit";
-import {uiAction} from "./ui-slice";
+import {uiReducer} from "./ui-slice";
 
 const store = configureStore({
-    reducer:{ui: uiAction}
+    reducer:{ui: uiReducer}
+
 });
 
 export default store;
