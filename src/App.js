@@ -4,7 +4,7 @@ import Products from './components/Shop/Products';
 import {useDispatch, useSelector} from "react-redux";
 import {Fragment, useEffect} from "react";
 import Notification from "./components/UI/Notification";
-import {sendCartData} from "./store/cart-slice";
+import {sendCartData} from "./store/cart-actions";
 
 let isInitial = true;
 
